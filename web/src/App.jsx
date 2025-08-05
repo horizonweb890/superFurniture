@@ -7,8 +7,9 @@ import ProductDetailPage from './view/product/ProductDetails';
 import AboutFurnitureCompany from "./view/AboutCompany/About"
 import ContactPage from "./view/Contact"
 
-export const request = "http://localhost:8080";
+// export const request = "http://localhost:8080";
 // export const request = "http://successitworld.com/sub"
+export const request = "https://www.horizoncart.com"
 
 function App() {
 
