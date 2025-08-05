@@ -19,10 +19,10 @@ app.get('/sub/test', (req, res) => {
     res.send("This is for deploy test");
 })
 
-app.use("/api/v1", categoryRoutes);
-app.use("/api/v1", productRoutes); 
-app.use("/api/v1", contactRoutes);
-app.use("/api/v1", userRoutes);
+app.use("/api/v1/furniture", categoryRoutes);
+app.use("/api/v1/furniture", productRoutes); 
+app.use("/api/v1/furniture", contactRoutes);
+app.use("/api/v1/furniture", userRoutes);
 
 connectDB()
   .then(() => {
